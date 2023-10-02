@@ -1,0 +1,37 @@
+{
+  "name": "actor-thread-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "rbxts-build compile",
+    "build": "rbxts-build build",
+    "open": "rbxts-build open",
+    "start": "rbxts-build start",
+    "stop": "rbxts-build stop",
+    "sync": "rbxts-build sync",
+    "watch": "rbxts-build watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rbxts/compiler-types": "^2.2.0-types.0",
+    "@rbxts/types": "^1.0.718",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-roblox-ts": "^0.0.36",
+    "prettier": "^3.0.3",
+    "rbxts-build": "^2.0.0",
+    "roblox-ts": "^2.2.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@rbxts/baseplate": "^1.1.1",
+    "@rbxts/iris": "^1.0.1",
+    "@rbxts/services": "^1.5.1"
+  }
+}
